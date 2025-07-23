@@ -1,7 +1,7 @@
 name: StaticWebSite
 summary: This is an App Configuration deployment using Bicep.
 description: Deploys an static web site.
-templatePath: staticwebsite.json
+templatePath: azuredeploy.json
 parameters:
 - id: "staticSites_drse_name"
   name: "staticSites_drse_name"
