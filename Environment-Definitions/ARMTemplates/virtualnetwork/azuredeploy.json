@@ -12,7 +12,7 @@
     },
     "location": {
       "type": "string",
-      "defaultValue": "East US",
+      "defaultValue": "eastus",
       "metadata": {
         "description": "Location for the Virtual Network"
       }
