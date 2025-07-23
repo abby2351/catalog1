@@ -8,9 +8,4 @@ parameters:
   description: "Name of the App Config"
   type: "string"
   required: true
-- id: "location"
-  name: "location"
-  description: "Location to deploy the environment resources"
-  default: "westus2"
-  type: "string"
 runner: ARM
