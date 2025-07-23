@@ -15,11 +15,7 @@
             "name": "[parameters('staticSites_drse_name')]",
             "location": "East US 2",
             "tags": {
-                "ministry": "health",
-                "servicenow": "chg2673",
-                "Application": "application",
-                "DateCreated": "01/23/2025",
-                "Environment": "prod"
+              
             },
             "sku": {
                 "name": "Free",
