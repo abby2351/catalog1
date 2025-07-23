@@ -1,0 +1,26 @@
+name: StaticWebApp
+summary: Deploys a basic Azure Static Web App from a GitHub repository.
+description: Provision a Static Web App using Bicep and configure deployment settings.
+runner: Bicep
+templatePath: main.bicep
+parameters:
+- id: staticWebAppName
+  name: Static Web App Name
+  description: Unique name for the Static Web App
+  type: string
+  default: my-static-webapp
+- id: location
+  name: Deployment Location
+  description: Azure region for the app
+  type: string
+  default: EastUS
+- id: repoUrl
+  name: Repository URL
+  description: The source code repository (e.g. https://github.com/user/repo)
+  type: string
+  default: https://owunaria.visualstudio.com/Selfserve-Catalog/_git/Selfserve-Catalog
+- id: branch
+  name: Source Branch
+  description: The branch to deploy (e.g. main or develop)
+  type: string
+  default: main
