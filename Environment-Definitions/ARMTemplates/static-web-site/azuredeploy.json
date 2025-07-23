@@ -13,7 +13,7 @@
             "type": "Microsoft.Web/staticSites",
             "apiVersion": "2024-11-01",
             "name": "[parameters('staticSites_drse_name')]",
-            "location": "East US 2",
+            "location": "eastus2",
             "tags": {
               
             },
