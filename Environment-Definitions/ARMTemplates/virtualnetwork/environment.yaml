@@ -1,1 +1,32 @@
+name: VirtualNetwork
+summary: Deploys an Azure Virtual Network.
+description: Creates a virtual network with a subnet using ARM template.
+runner: ARM
+templatePath: azuredeploy.json
+parameters:
+- id: vnetName
+  name: Virtual Network Name
+  description: Name of the VNet
+  type: string
+  default: my-vnet
+- id: location
+  name: Location
+  description: Azure region for deployment
+  type: string
+  default: East US
+- id: addressPrefix
+  name: Address Prefix
+  description: IP address range for the VNet
+  type: string
+  default: 10.0.0.0/16
+- id: subnetName
+  name: Subnet Name
+  description: Name of the subnet inside the VNet
+  type: string
+  default: default-subnet
+- id: subnetPrefix
+  name: Subnet Address Prefix
+  description: IP range for the subnet
+  type: string
+  default: 10.0.0.0/24
 
