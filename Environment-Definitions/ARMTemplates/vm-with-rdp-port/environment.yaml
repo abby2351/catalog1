@@ -19,7 +19,7 @@ parameters:
   - id: adminPassword
     name: Administrator Password
     description: VM admin password
-    type: secureString
+    type: securestring
 
   - id: rdpPort
     name: RDP Port
