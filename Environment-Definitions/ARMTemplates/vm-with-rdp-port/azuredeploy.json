@@ -36,7 +36,7 @@
       }
     },
     "rdpPort": {
-      "type": "int",
+      "type": int,
       "defaultValue": 50001,
       "metadata": {
         "description": "Public port number for RDP"
