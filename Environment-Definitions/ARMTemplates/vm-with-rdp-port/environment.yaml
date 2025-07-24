@@ -23,7 +23,7 @@ parameters:
 - id: adminPassword
   name: Admin Password
   description: Password for the VM administrator account.
-  type: securestring
+  type: secureString
 - id: vmSize
   name: VM Size
   description: Azure SKU for the VM size.
