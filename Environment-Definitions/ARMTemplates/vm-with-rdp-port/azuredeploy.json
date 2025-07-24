@@ -11,7 +11,7 @@
       "defaultValue": "azureuser"
     },
     "adminPassword": {
-      "type": "secureString"
+      "type": "securestring"
     },
     "rdpPort": {
       "type": "int",
